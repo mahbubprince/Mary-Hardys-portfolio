@@ -1,0 +1,150 @@
+.open-sans-simple {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared style */
+.btn-primary {
+
+    background-color: #FD6E0A;
+
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+
+.main-head {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.all-descreption {
+    font-size: 18px;
+    color: #757575;
+
+}
+
+.shared-bg {
+    background-color: #FFF8F3;
+
+}
+
+header {
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-1 {
+    width: 150px;
+    height: 64px;
+}
+
+.nav-titale {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav ul {
+
+    display: flex;
+    margin-right: 230px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+nav ul li {
+    margin-left: 51px;
+    list-style: none;
+
+}
+
+nav h3 {
+    margin-left: 230px;
+}
+
+/* banner style */
+.banner {
+    display: flex;
+}
+
+.banner-greathings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-name {
+    font-size: 85px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.dadk-1 {
+    color: #181818;
+}
+
+.btn-2 {
+    width: 200px;
+    height: 64px;
+    margin-right: 30px;
+}
+
+.btn-3 {
+    width: 160px;
+    height: 64px;
+}
+
+.banner-contain {
+    margin-left: 230px;
+}
+
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+    padding: 131px 156px;
+    margin-top: 130px;
+
+}
+
+.about-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-describtion {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
