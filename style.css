@@ -23,8 +23,9 @@
 }
 
 .all-descreption {
-    font-size: 18px;
+    font-size: 16px;
     color: #757575;
+    margin-top: 30px;
 
 }
 
@@ -147,4 +148,107 @@ main {
 .about-items {
     display: flex;
     justify-content: space-around;
+}
+
+/* skills section style */
+.skills-section {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.skill {
+    border-radius: 5px;
+    height: 377px;
+    width: 267px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.What-I-Do {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.skill-section p {
+    text-align: center;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* resume section style */
+.resume-all {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 75px;
+}
+
+.resume h2 {
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.resume-describtion {
+    text-align: left;
+}
+
+.resume-cullom-mattrial {
+    width: 511px;
+}
+
+.resume-cullom-mattrial h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.resume-cullom-mattrial h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.down-cv {
+    text-align: center;
+}
+
+/* footer style */
+.footer-cullom {
+    display: flex;
+    gap: 117px;
+}
+
+footer input {
+    height: 64px;
+    width: 461px;
+    gap: 24px;
+    margin-bottom: 24px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 180px;
+    width: 461px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+footer {
+    padding: 130px 230px;
+}
+
+footer p {
+    margin-bottom: 30px;
+}
+
+footer button {
+    margin-top: 24px;
 }
